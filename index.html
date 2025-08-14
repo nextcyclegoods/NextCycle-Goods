@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextCycle Goods | Quality Second-Hand Finds</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== HEADER & NAV ===== -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <h1 class="logo">NextCycle<span>Goods</span></h1>
+
+      <!-- mobile hamburger -->
+      <button id="navToggle" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="mainNav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- hero -->
+    <section class="hero">
+      <h2>Give Good Things a Second Life</h2>
+      <p>Curated pre-loved fashion, kidswear & homeware—planet-friendly prices.</p>
+      <a href="#shop" class="btn">Browse Latest Drops</a>
+    </section>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container grid-two">
+      <img src="images/IMG_7727.JPG" alt="Pre-loved clothes rail" />
+      <div>
+        <h3>Who We Are</h3>
+        <p>NextCycle Goods rescues quality items looking for a new home. Every purchase keeps usable products out of landfill and puts money back into your pocket.</p>
+        <ul>
+          <li>100 % hand-inspected pieces</li>
+          <li>Cleaned & ready to wear</li>
+          <li>Plastic-free packaging</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section id="shop" class="section light">
+    <div class="container">
+      <h3>Featured Finds</h3>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="images/IMG_7734.JPG" alt="Yellow floral midi dress" />
+          <h4>Yellow Floral Midi Dress</h4>
+          <p class="price">£14.00</p>
+          <a href="#" class="btn-secondary">Details</a>
+        </article>
+
+        <article class="product-card">
+          <img src="images/IMG_7772.JPG" alt="Kids grey marl cardigan" />
+          <h4>Kids Grey Cardigan (5-6 Y)</h4>
+          <p class="price">£4.50</p>
+          <a href="#" class="btn-secondary">Details</a>
+        </article>
+      </div>
+
+      <a href="#" class="btn center">View All Stock</a>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section id="categories" class="section">
+    <div class="container">
+      <h3>Shop by Category</h3>
+      <div class="category-grid">
+        <a href="#" class="cat-tile">Women’s Fashion</a>
+        <a href="#" class="cat-tile">Kids & Baby</a>
+        <a href="#" class="cat-tile">Home & Living</a>
+        <a href="#" class="cat-tile">Accessories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact-section">
+    <div class="container grid-two">
+      <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+        <h3>Get in Touch</h3>
+        <label>Name
+          <input type="text" name="name" required />
+        </label>
+        <label>Email
+          <input type="email" name="_replyto" required />
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Visit / Collect</h3>
+        <p>Unit 12, Green Arcade<br />Upcycle Road, Bristol BS1 4AA</p>
+        <p><strong>Email:</strong> hello@nextcyclegoods.co.uk</p>
+        <p><strong>Hours:</strong> Mon–Sat 10-5</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> NextCycle Goods — All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
